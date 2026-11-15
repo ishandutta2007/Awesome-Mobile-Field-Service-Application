@@ -9,6 +9,7 @@
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Field Service Management](https://img.shields.io/badge/FSM-Mobile%20Apps-blue.svg)](https://github.com/ishandutta2007/Awesome-Mobile-Field-Service-Application)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > A curated directory of premier **Mobile Field Service Application (FSM)** software, work order management tools, and technician dispatch systems. Discover top SaaS platforms and self-hosted open-source solutions featuring offline-first mobile apps for HVAC, plumbing, electrical, maintenance, and deskless field operations.
 
