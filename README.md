@@ -29,14 +29,14 @@
 
 Commercial, cloud-hosted Mobile Field Service Application platforms. These are not open-source but are included as reference points for feature comparison.
 
-| Platform | Starting Pricing | Free Tier / Trial Limit | Key Focus & Mobile Capabilities |
-| :--- | :--- | :--- | :--- |
-| **Salesforce Field Service App** | /user/month (Contractor tier, billed annually) | No direct free trial for Field Service; 30-day trial available for base Service Cloud | Enterprise field service integrated with Salesforce CRM; offline-first mobile app with dispatch, inventory tracking, and scheduling. |
-| **ServiceTitan Mobile** | ~/technician/month (Starter tier; custom quote, 12+ mo contract) | No free tier or trial (sales-assisted demo and POC only) | Enterprise standard for residential & commercial contractors (HVAC, plumbing, electrical); full technician dispatch, estimates, and payment processing. |
-| **ServiceMax Go** | ~/user/month (Annual contract; enterprise custom quote) | No free tier or trial (limited trials only available for select AppExchange add-ons) | Industrial and medical asset maintenance; offline mobile access for complex machinery servicing, IoT telemetry, and work orders. |
-| **Jobber Mobile** | /month (Core plan, billed annually) | 14-day free trial with full Grow plan feature access (no credit card required) | Small-to-midsize trade service businesses (landscaping, cleaning, plumbing); quoting, scheduling, dispatch, and client messaging. |
-| **Housecall Pro App** | /month (Basic plan, billed annually) | 14-day free trial (no credit card required) | Mobile-first field service management for home service pros; in-app dispatching, invoicing, customer notifications, and mobile payments. |
-| **Skedulo Plus** | ~/mobile worker/month (Annual enterprise contract) | No standard self-service free trial (customized sales POC / sandbox environment only) | Deskless workforce scheduling, dynamic shift dispatching, and field data capture across healthcare, utilities, and mobile services. |
+| Platform | Company Valuation / Revenue | Starting Pricing | Free Tier / Trial Limit | Key Focus & Mobile Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **Salesforce Field Service App** | ~+ Market Cap (.8B FY24 Revenue) | /user/month (Contractor tier, billed annually) | No direct free trial for Field Service; 30-day trial available for base Service Cloud | Enterprise field service integrated with Salesforce CRM; offline-first mobile app with dispatch, inventory tracking, and scheduling. |
+| **ServiceTitan Mobile** | ~.0B Valuation (Public: NASDAQ TTAN) | ~/technician/month (Starter tier; custom quote, 12+ mo contract) | No free tier or trial (sales-assisted demo and POC only) | Enterprise standard for residential & commercial contractors (HVAC, plumbing, electrical); full technician dispatch, estimates, and payment processing. |
+| **Jobber Mobile** | ~.0B - .5B Valuation (+ ARR) | /month (Core plan, billed annually) | 14-day free trial with full Grow plan feature access (no credit card required) | Small-to-midsize trade service businesses (landscaping, cleaning, plumbing); quoting, scheduling, dispatch, and client messaging. |
+| **ServiceMax Go** | .46B Acquisition (Acquired by PTC) | ~/user/month (Annual contract; enterprise custom quote) | No free tier or trial (limited trials only available for select AppExchange add-ons) | Industrial and medical asset maintenance; offline mobile access for complex machinery servicing, IoT telemetry, and work orders. |
+| **Housecall Pro App** | ~.1B Valuation (Permira-backed unicorn) | /month (Basic plan, billed annually) | 14-day free trial (no credit card required) | Mobile-first field service management for home service pros; in-app dispatching, invoicing, customer notifications, and mobile payments. |
+| **Skedulo Plus** | ~+ Valuation (+ VC funding) | ~/mobile worker/month (Annual enterprise contract) | No standard self-service free trial (customized sales POC / sandbox environment only) | Deskless workforce scheduling, dynamic shift dispatching, and field data capture across healthcare, utilities, and mobile services. |
 
 ---
 
