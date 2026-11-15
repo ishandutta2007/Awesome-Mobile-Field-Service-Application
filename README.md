@@ -18,11 +18,16 @@
   - [Skedulo Plus](#skedulo-plus)
   - [ServiceMax Go](#servicemax-go)
 - [Open-Source Software](#-open-source-software)
-  - [OpenFieldPro](#openfieldpro)
-  - [FlexDesk](#flexdesk)
-  - [Mobo Field Service for Odoo](#mobo-field-service-for-odoo)
-  - [SiteTrackr](#sitetrackr)
-  - [open-fieldservice (Atlas)](#open-fieldservice-atlas)
+  - [1. OCA / Field Service](#1-oca--field-service-)
+  - [2. Azure Field Engineer Mobile App](#2-azure-field-engineer-mobile-app-)
+  - [3. OpenFieldService](#3-openfieldservice-)
+  - [4. EasyDispatch](#4-easydispatch-)
+  - [5. Beveren FSM for ERPNext](#5-beveren-fsm-for-erpnext-)
+  - [6. Witness Work](#6-witness-work-)
+  - [7. Geoclarity](#7-geoclarity-)
+  - [8. OpenFieldPro](#8-openfieldpro-)
+  - [9. Mobo Field Service for Odoo](#9-mobo-field-service-for-odoo-)
+  - [10. SiteTrackr](#10-sitetrackr-)
 
 ---
 
@@ -49,67 +54,67 @@ Commercial, cloud-hosted Mobile Field Service Application platforms. These are n
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Mobile Field Service Application tools. The open-source ecosystem is **growing**, with several projects offering broad feature coverage and mobile apps.
+Self-hosted, community-driven Mobile Field Service Application tools and dispatch systems. The open-source ecosystem provides robust options spanning comprehensive ERP-integrated suites, standalone technician dispatchers, and offline-capable mobile clients.
 
-### OpenFieldPro
-**Stack:** Fastify / Next.js / React Native (Expo) / PostgreSQL | **License:** AGPL-3.0
-OpenFieldPro is an open-source, self-hostable field service management platform with a **technician mobile app (React Native/Expo)** covering the full lead-to-payment workflow . Key capabilities include:
-- **Operations core**: Customers, properties, equipment history, scheduling, dispatch, work orders, estimates, invoicing, payments, documents, service plans, reviews, and reporting 
-- **Dispatch board**: Unassigned work, technician lanes, drag-and-drop reassignment, conflict prevention 
-- **Technician mobile app**: Offline foundations, with job intake, work execution, and return visits 
-- **Payments**: Offline payments and optional Stripe checkout 
-- **Self-hosting**: Install, update, backup, and restore helpers included 
-- **No telemetry or phone-home licensing** 
+### 1. OCA / Field Service [![GitHub stars](https://img.shields.io/github/stars/OCA/field-service?style=social&color=white)](https://github.com/OCA/field-service/stargazers)
+- **Repository:** [OCA/field-service](https://github.com/OCA/field-service)
+- **Stack:** Python / Odoo / PostgreSQL | **License:** AGPL-3.0
+- **Overview:** The official community-driven Field Service Management ecosystem for Odoo maintained by the Odoo Community Association (OCA). It delivers complete field operations management: multi-branch geographic tracking, technician dispatch, territory routing, maintenance orders, stock management, and integration with Odoo mobile interfaces.
+- **Best for:** Businesses and enterprises operating on Odoo seeking a battle-tested, modular open-source FSM foundation with full ERP synergy.
 
-**Important status:** The project is in **release-candidate hardening**, with production release still requiring completion of device testing, backup/restore evidence, and human review of browser screenshots . The core is AGPL-3.0 with no stated limits on users, customers, jobs, or invoices .
-**Best for:** Service businesses and technical teams wanting broad field-service workflows with a mobile app and no per-seat fees, accepting the release-candidate status and self-hosting responsibility.
+### 2. Azure Field Engineer Mobile App [![GitHub stars](https://img.shields.io/github/stars/Azure-Samples/app-service-mobile-dotnet-fieldengineer?style=social&color=white)](https://github.com/Azure-Samples/app-service-mobile-dotnet-fieldengineer/stargazers)
+- **Repository:** [Azure-Samples/app-service-mobile-dotnet-fieldengineer](https://github.com/Azure-Samples/app-service-mobile-dotnet-fieldengineer)
+- **Stack:** C# / .NET / Xamarin.Forms (iOS & Android) / Azure App Service | **License:** MIT
+- **Overview:** Microsoft Azure's reference architecture implementation for enterprise mobile field engineers. It showcases offline synchronization, push notifications, native camera and geolocation capture, customer signatures, and secure cloud sync for on-site field technicians.
+- **Best for:** Development teams building cross-platform native mobile field engineering applications on .NET and Azure.
 
-### FlexDesk
-**Stack:** NestJS / Prisma / React / React Native / PostgreSQL | **License:** Open Source
-FlexDesk is an open-source field service management platform built for HVAC technicians, plumbers, electricians, and landscapers, with a **React Native mobile app** and offline-first support . Key features include:
-- **Job management**: Status tracking, priority levels, scheduling, and geofencing 
-- **Client CRM**: Leads pipeline, contact management, status tracking 
-- **Invoicing**: Create, send, and track invoices with Stripe payments 
-- **Team scheduling**: Weekly calendar with drag-and-drop, technician assignment 
-- **Role-based access**: Admin, Dispatcher, and Technician roles 
-- **Offline-first**: Works without connectivity, syncs when back online 
-- **Multi-tenant**: Isolated workspaces with row-level security 
-- **Google Maps integration**: Routing, job locations, distance calculations 
+### 3. OpenFieldService [![GitHub stars](https://img.shields.io/github/stars/clawnify/OpenFieldService?style=social&color=white)](https://github.com/clawnify/OpenFieldService/stargazers)
+- **Repository:** [clawnify/OpenFieldService](https://github.com/clawnify/OpenFieldService)
+- **Stack:** TypeScript / Preact / Hono / Cloudflare D1 | **License:** MIT
+- **Overview:** Modern, ultra-lightweight open-source field service scheduling and dispatch software designed as a self-hostable alternative to ServiceTitan, Jobber, and Housecall Pro. Features an interactive visual drag-and-drop technician dispatch board, multi-trade support (pest control, HVAC, plumbing, electrical), customer CRM, job estimates, and invoicing.
+- **Best for:** Modern trade contractors and developers wanting a fast, edge-deployable scheduling platform with minimal hosting overhead.
 
-The stack uses NestJS, Prisma, PostgreSQL, React 18, and React Native, with Stripe, SendGrid, Twilio, and Google Maps as optional external services for local development .
-**Best for:** Trade contractors wanting a modern, self-hosted FSM with a native mobile app and offline support, accepting the NestJS/React Native stack.
+### 4. EasyDispatch [![GitHub stars](https://img.shields.io/github/stars/alibaba/easydispatch?style=social&color=white)](https://github.com/alibaba/easydispatch)
+- **Repository:** [alibaba/easydispatch](https://github.com/alibaba/easydispatch)
+- **Stack:** Python / PyTorch / Algorithms | **License:** Apache-2.0
+- **Overview:** Alibaba's open-source centralized real-time field service dispatching and combinatorial route optimization engine. It models dynamic vehicle and technician routing problems with time windows (VRPTW), real-time traffic conditions, worker skill matching, and on-demand customer order updates.
+- **Best for:** Logistics, on-demand field services, and enterprise dispatch systems requiring industrial-grade algorithmic route and job scheduling.
 
-### Mobo Field Service for Odoo
-**Stack:** Odoo / Apache-2.0 | **License:** Apache-2.0
-Mobo Field Service is a **free and open-source mobile app for Odoo** that connects directly to your own Odoo backend, keeping jobs, worksheets, and timesheets in sync with Odoo Field Service on desktop . Key features include:
-- **Task management**: Create, edit, and track field jobs from phone, synced with desktop 
-- **Worksheets & e-signature**: Fill in job worksheets and capture customer signatures on-site 
-- **Timesheets & running timer**: Log time against jobs with voice-to-text notes, check in/out with one tap 
-- **Products & parts used**: Add materials consumed on a job with live totals 
-- **Field service reports**: Generate PDF job reports and share before leaving site 
-- **Map & navigation**: See jobs on a map with live navigation and arrival alerts 
-- **Multi-company support**: Switch active company or manage across companies 
-- **Secure login**: Two-factor verification, biometric app lock, multiple accounts 
+### 5. Beveren FSM for ERPNext [![GitHub stars](https://img.shields.io/github/stars/Beveren-Software-Inc/Field_Service_Management?style=social&color=white)](https://github.com/Beveren-Software-Inc/Field_Service_Management/stargazers)
+- **Repository:** [Beveren-Software-Inc/Field_Service_Management](https://github.com/Beveren-Software-Inc/Field_Service_Management)
+- **Stack:** Python / Frappe Framework / ERPNext / MariaDB | **License:** GPL-3.0
+- **Overview:** A 100% open-source, full-featured Field Service Management application tailored natively for the Frappe/ERPNext ecosystem. Handles end-to-end technician dispatching, service appointments, work orders, on-site task completion, warranty tracking, spare parts tracking, and billing.
+- **Best for:** Companies utilizing ERPNext looking for turn-key field service dispatching, warranty tracking, and billing capabilities.
 
-It is available for both **iOS and Android**, and works with both Odoo Community and Enterprise editions. The app is fully open source under Apache-2.0 with no hidden costs or lock-in .
-**Best for:** Organizations already using Odoo for field service wanting a native mobile app that syncs directly with their existing backend, accepting the Odoo dependency.
+### 6. Witness Work [![GitHub stars](https://img.shields.io/github/stars/leviFrosty/witness-work?style=social&color=white)](https://github.com/leviFrosty/witness-work/stargazers)
+- **Repository:** [leviFrosty/witness-work](https://github.com/leviFrosty/witness-work)
+- **Stack:** TypeScript / React Native / Mobile (iOS & Android) | **License:** Open Source
+- **Overview:** A user-experience focused mobile field service assistant built specifically for on-site technicians. Designed to streamline work order intake, job checklists, photo documentation, and client handoffs directly from smartphones with an intuitive mobile UI.
+- **Best for:** Technicians wanting a streamlined mobile-first field companion app prioritizing speed and mobile UX.
 
-### SiteTrackr
-**Stack:** Fastify / React / PWA / PostgreSQL | **License:** Open Source
-SiteTrackr is an open-source **FieldOps maintenance platform optimized for technicians working remote sites**, delivered as a **React PWA** with offline storage via Dexie (IndexedDB) . Key features include:
-- **Dynamic ticket templates**: Configurable forms for different job types 
-- **Site-level metadata**: Grouped custom fields and visit logging 
-- **Attachments**: File uploads with role-based permissions 
-- **Offline storage**: IndexedDB via Dexie for field work without connectivity 
-- **Tech stack**: Fastify 4, Prisma, PostgreSQL, React 18, Vite, TanStack Query/Table 
+### 7. Geoclarity [![GitHub stars](https://img.shields.io/github/stars/babupriyavrat/Geoclarity?style=social&color=white)](https://github.com/babupriyavrat/Geoclarity/stargazers)
+- **Repository:** [babupriyavrat/Geoclarity](https://github.com/babupriyavrat/Geoclarity)
+- **Stack:** PHP / Laravel / MySQL | **License:** Open Source
+- **Overview:** An open-source, self-hosted field service management system providing complete operational control without dependency on third-party SaaS subscriptions. Delivers dispatch management, job status tracking, client management, and technician route coordination.
+- **Best for:** Self-hosters and service companies wanting a classic, lightweight LAMP/LEMP stack solution for field technician coordination.
 
-It is positioned for maintenance operations at remote sites where connectivity is intermittent, with a PWA approach that avoids native app store distribution .
-**Best for:** Maintenance teams working at remote sites needing offline-capable field data capture via PWA, accepting the Fastify/React stack.
+### 8. OpenFieldPro [![GitHub stars](https://img.shields.io/github/stars/niko4244/openfieldpro?style=social&color=white)](https://github.com/niko4244/openfieldpro/stargazers)
+- **Repository:** [niko4244/openfieldpro](https://github.com/niko4244/openfieldpro)
+- **Stack:** Fastify / Next.js / React Native (Expo) / PostgreSQL | **License:** AGPL-3.0
+- **Overview:** Open-source, self-hostable lead-to-payment field service platform featuring a native Expo/React Native mobile app for technicians. Includes dispatch lanes, unassigned work queues, drag-and-drop reassignment, offline foundation, Stripe checkout, and zero phone-home licensing.
+- **Best for:** Trade contractors and full-stack developers wanting an all-in-one lead-to-payment system with a dedicated React Native mobile app.
 
-### open-fieldservice (Atlas)
-**Stack:** Preact / Hono / Cloudflare D1 | **License:** Open Source
-open-fieldservice is an open-source field-service scheduler with a **Preact front end, Hono API, and Cloudflare D1 database**, billed as a self-hostable alternative to ServiceTitan or Jobber for pest control, HVAC, plumbing, and similar trades . It ships with a full back office: jobs, customer CRM, technicians, invoices, materials, and a weekly calendar . A community fork ("Atlas") added a **Dispatch board** with technician rows and a 7am-7pm timeline, where unassigned jobs sit in a left rail and can be dragged onto a technician's track to assign and schedule in one motion . The dispatch board is pure front-end, reusing existing API endpoints with no backend changes .
-**Best for:** Teams wanting a lightweight, self-hostable field-service scheduler with a dispatch board, accepting the Cloudflare D1 stack and the project's community-fork status.
+### 9. Mobo Field Service for Odoo [![GitHub stars](https://img.shields.io/github/stars/Shahadr4/mobo-field-service?style=social&color=white)](https://github.com/Shahadr4/mobo-field-service/stargazers)
+- **Repository:** [Shahadr4/mobo-field-service](https://github.com/Shahadr4/mobo-field-service)
+- **Stack:** Flutter / Dart / Odoo Backend | **License:** Apache-2.0
+- **Overview:** Part of the Mobo open-source mobile suite for Odoo. Native iOS and Android Flutter application connecting directly to Odoo Field Service backends, enabling work order management, on-site electronic signatures, time tracking, consumed parts logging, and offline sync.
+- **Best for:** Field crews requiring native mobile phone/tablet access to self-hosted Odoo Community or Enterprise instances.
+
+### 10. SiteTrackr [![GitHub stars](https://img.shields.io/github/stars/Mohammed-6/sitetrackr?style=social&color=white)](https://github.com/Mohammed-6/sitetrackr/stargazers)
+- **Repository:** [Mohammed-6/sitetrackr](https://github.com/Mohammed-6/sitetrackr)
+- **Stack:** Fastify / Prisma / React PWA / Dexie (IndexedDB) | **License:** Open Source
+- **Overview:** Specialized open-source FieldOps maintenance application engineered for technicians operating at remote sites with intermittent or zero internet connectivity. Utilizes client-side IndexedDB caching via Dexie, dynamic ticket templates, and file attachments in an installable PWA.
+- **Best for:** Remote site inspections, utility maintenance, and field operations requiring offline-first PWA data capture.
 
 ---
 
@@ -117,13 +122,19 @@ open-fieldservice is an open-source field-service scheduler with a **Preact fron
 
 | Software | License | Stack | Native Mobile | Offline Support | Self-Hosted | Best For |
 |----------|---------|-------|---------------|-----------------|-------------|----------|
-| **ServiceTitan** | Proprietary | Cloud | ✅ | ✅ | ❌ | Enterprise home services |
-| **Jobber** | Proprietary | Cloud | ✅ | ✅ | ❌ | SMB field service |
-| **OpenFieldPro** | AGPL-3.0 | Fastify/Next.js/Expo | ✅ React Native | ✅ | ✅ | Full lead-to-payment FSM |
-| **FlexDesk** | Open Source | NestJS/React Native | ✅ | ✅ | ✅ | Trade contractors + CRM |
-| **Mobo (Odoo)** | Apache-2.0 | Odoo | ✅ iOS/Android | (Check) | ✅ (Odoo) | Odoo field service users |
-| **SiteTrackr** | Open Source | Fastify/React PWA | PWA | ✅ IndexedDB | ✅ | Remote site maintenance |
-| **open-fieldservice** | Open Source | Preact/Hono/D1 | ❌ (Web) | ❌ | ✅ | Lightweight scheduler + dispatch |
+| **Salesforce Field Service** | Proprietary | Cloud | ✅ iOS/Android | ✅ Offline sync | ❌ Cloud | Enterprise CRM + Field Service |
+| **ServiceTitan** | Proprietary | Cloud | ✅ iOS/Android | ✅ Offline cache | ❌ Cloud | Enterprise home services & trades |
+| **Jobber** | Proprietary | Cloud | ✅ iOS/Android | ✅ Offline actions | ❌ Cloud | Small-to-midsize trade service businesses |
+| **OCA / Field Service** | AGPL-3.0 | Python / Odoo | ✅ Odoo Mobile | ✅ Mobile sync | ✅ Self-hosted | Enterprise Odoo ERP integration |
+| **Azure Field Engineer** | MIT | .NET / Xamarin | ✅ iOS/Android | ✅ Offline sync | ✅ Cloud/Self | Reference mobile architecture for Azure |
+| **OpenFieldService** | MIT | Preact/Hono/D1 | 🌐 Mobile Web | ❌ Online | ✅ Self-hosted | Lightweight dispatch & scheduling |
+| **EasyDispatch** | Apache-2.0 | Python / PyTorch | ❌ Engine | ❌ Engine | ✅ Self-hosted | Real-time AI dispatch & route optimization |
+| **Beveren FSM (ERPNext)**| GPL-3.0 | Frappe / ERPNext | ✅ ERPNext Mobile | ✅ Mobile sync | ✅ Self-hosted | ERPNext open-source field service |
+| **Witness Work** | Open Source | React Native | ✅ iOS/Android | ✅ Local storage | ✅ Self-hosted | Technician UX-first mobile companion |
+| **Geoclarity** | Open Source | PHP / Laravel | 🌐 Mobile Web | ❌ Online | ✅ Self-hosted | Self-hosted LAMP field service |
+| **OpenFieldPro** | AGPL-3.0 | Fastify/Next.js/Expo | ✅ React Native | ✅ Offline sync | ✅ Self-hosted | Full lead-to-payment FSM |
+| **Mobo (Odoo)** | Apache-2.0 | Flutter / Odoo | ✅ iOS/Android | ✅ Local cache | ✅ Self-hosted | Native Flutter mobile app for Odoo |
+| **SiteTrackr** | Open Source | Fastify/React PWA | 📱 Offline PWA | ✅ IndexedDB | ✅ Self-hosted | Remote site inspections & maintenance |
 
 ---
 
