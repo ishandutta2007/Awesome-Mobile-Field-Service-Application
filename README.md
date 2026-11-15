@@ -9,6 +9,7 @@
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
   - [ServiceTitan Mobile](#servicetitan-mobile)
   - [Jobber Mobile](#jobber-mobile)
@@ -22,6 +23,12 @@
   - [Mobo Field Service for Odoo](#mobo-field-service-for-odoo)
   - [SiteTrackr](#sitetrackr)
   - [open-fieldservice (Atlas)](#open-fieldservice-atlas)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global Field Service Management (FSM) software market is valued at approximately **.5B to .5B** and is expanding at a robust **9.5%–12.5% CAGR**, projected to surpass **+ by 2030** driven by cloud mobility, AI route optimization, and IoT predictive maintenance. The industry demonstrates a **hybrid market concentration structure**: while the high-end enterprise segment is heavily concentrated among mega-cap enterprise suites (such as Salesforce, SAP, and ServiceMax/PTC), the mid-market and SME trades landscape remains **moderately to highly fragmented** across hundreds of specialized trade solutions and fast-growing vertical platforms.
 
 ---
 
