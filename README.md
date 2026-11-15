@@ -29,29 +29,14 @@
 
 Commercial, cloud-hosted Mobile Field Service Application platforms. These are not open-source but are included as reference points for feature comparison.
 
-### ServiceTitan Mobile
-**Type:** Enterprise field service management for home services
-ServiceTitan is the enterprise standard for HVAC, plumbing, and electrical contractors, with a mobile app for technicians covering dispatch, job details, estimates, invoicing, and payment collection. It is positioned for large contracting businesses, with pricing that reflects its enterprise focus.
-
-### Jobber Mobile
-**Type:** Field service app for small to mid-sized businesses
-Jobber provides a mobile app for scheduling, dispatch, quoting, invoicing, and client communication, positioned for small to mid-sized service businesses (landscaping, cleaning, plumbing). It is known for its ease of use and accessible pricing tiers.
-
-### Housecall Pro App
-**Type:** Mobile-first field service management
-Housecall Pro provides a mobile app for scheduling, dispatching, invoicing, and payments, with a focus on home service professionals. It is positioned for small teams wanting an all-in-one mobile experience.
-
-### Salesforce Field Service App
-**Type:** Field service within Salesforce platform
-Salesforce Field Service provides mobile access to work orders, scheduling, and asset data for field technicians, integrated with the broader Salesforce platform. It is positioned for organizations already standardized on Salesforce.
-
-### Skedulo Plus
-**Type:** Deskless workforce scheduling and dispatch
-Skedulo provides mobile workforce management with scheduling, dispatch, and mobile data capture for deskless workers. It is positioned for organizations needing flexible scheduling across a mobile workforce.
-
-### ServiceMax Go
-**Type:** Field service for complex equipment
-ServiceMax Go provides mobile field service capabilities for technicians servicing complex equipment, with offline access and asset history. It is positioned for manufacturing and industrial organizations.
+| Platform | Starting Pricing | Free Tier / Trial Limit | Key Focus & Mobile Capabilities |
+| :--- | :--- | :--- | :--- |
+| **Salesforce Field Service App** | /user/month (Contractor tier, billed annually) | No direct free trial for Field Service; 30-day trial available for base Service Cloud | Enterprise field service integrated with Salesforce CRM; offline-first mobile app with dispatch, inventory tracking, and scheduling. |
+| **ServiceTitan Mobile** | ~/technician/month (Starter tier; custom quote, 12+ mo contract) | No free tier or trial (sales-assisted demo and POC only) | Enterprise standard for residential & commercial contractors (HVAC, plumbing, electrical); full technician dispatch, estimates, and payment processing. |
+| **ServiceMax Go** | ~/user/month (Annual contract; enterprise custom quote) | No free tier or trial (limited trials only available for select AppExchange add-ons) | Industrial and medical asset maintenance; offline mobile access for complex machinery servicing, IoT telemetry, and work orders. |
+| **Jobber Mobile** | /month (Core plan, billed annually) | 14-day free trial with full Grow plan feature access (no credit card required) | Small-to-midsize trade service businesses (landscaping, cleaning, plumbing); quoting, scheduling, dispatch, and client messaging. |
+| **Housecall Pro App** | /month (Basic plan, billed annually) | 14-day free trial (no credit card required) | Mobile-first field service management for home service pros; in-app dispatching, invoicing, customer notifications, and mobile payments. |
+| **Skedulo Plus** | ~/mobile worker/month (Annual enterprise contract) | No standard self-service free trial (customized sales POC / sandbox environment only) | Deskless workforce scheduling, dynamic shift dispatching, and field data capture across healthcare, utilities, and mobile services. |
 
 ---
 
