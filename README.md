@@ -76,61 +76,61 @@ Commercial, cloud-hosted Mobile Field Service Application platforms. These are n
 
 Self-hosted, community-driven Mobile Field Service Application tools and dispatch systems. The open-source ecosystem provides robust options spanning comprehensive ERP-integrated suites, standalone technician dispatchers, and offline-capable mobile clients.
 
-### 1. OCA / Field Service [![GitHub stars](https://img.shields.io/github/stars/OCA/field-service?style=social&color=white)](https://github.com/OCA/field-service/stargazers) 🌟
+### 1. OCA / Field Service [![GitHub_Stars](https://img.shields.io/github/stars/OCA/field-service?style=social&color=white)](https://github.com/OCA/field-service/stargazers) 🌟
 - **Repository:** [OCA/field-service](https://github.com/OCA/field-service)
 - **Stack:** Python / Odoo / PostgreSQL | **License:** AGPL-3.0
 - **Overview:** The official community-driven Field Service Management ecosystem for Odoo maintained by the Odoo Community Association (OCA). It delivers complete field operations management: multi-branch geographic tracking, technician dispatch, territory routing, maintenance orders, stock management, and integration with Odoo mobile interfaces.
 - **Best for:** Businesses and enterprises operating on Odoo seeking a battle-tested, modular open-source FSM foundation with full ERP synergy.
 
-### 2. Azure Field Engineer Mobile App [![GitHub stars](https://img.shields.io/github/stars/Azure-Samples/app-service-mobile-dotnet-fieldengineer?style=social&color=white)](https://github.com/Azure-Samples/app-service-mobile-dotnet-fieldengineer/stargazers) 📱
+### 2. Azure Field Engineer Mobile App [![GitHub_Stars](https://img.shields.io/github/stars/Azure-Samples/app-service-mobile-dotnet-fieldengineer?style=social&color=white)](https://github.com/Azure-Samples/app-service-mobile-dotnet-fieldengineer/stargazers) 📱
 - **Repository:** [Azure-Samples/app-service-mobile-dotnet-fieldengineer](https://github.com/Azure-Samples/app-service-mobile-dotnet-fieldengineer)
 - **Stack:** C# / .NET / Xamarin.Forms (iOS & Android) / Azure App Service | **License:** MIT
 - **Overview:** Microsoft Azure's reference architecture implementation for enterprise mobile field engineers. It showcases offline synchronization, push notifications, native camera and geolocation capture, customer signatures, and secure cloud sync for on-site field technicians.
 - **Best for:** Development teams building cross-platform native mobile field engineering applications on .NET and Azure.
 
-### 3. OpenFieldService [![GitHub stars](https://img.shields.io/github/stars/clawnify/OpenFieldService?style=social&color=white)](https://github.com/clawnify/OpenFieldService/stargazers) ⚡
+### 3. OpenFieldService [![GitHub_Stars](https://img.shields.io/github/stars/clawnify/OpenFieldService?style=social&color=white)](https://github.com/clawnify/OpenFieldService/stargazers) ⚡
 - **Repository:** [clawnify/OpenFieldService](https://github.com/clawnify/OpenFieldService)
 - **Stack:** TypeScript / Preact / Hono / Cloudflare D1 | **License:** MIT
 - **Overview:** Modern, ultra-lightweight open-source field service scheduling and dispatch software designed as a self-hostable alternative to ServiceTitan, Jobber, and Housecall Pro. Features an interactive visual drag-and-drop technician dispatch board, multi-trade support (pest control, HVAC, plumbing, electrical), customer CRM, job estimates, and invoicing.
 - **Best for:** Modern trade contractors and developers wanting a fast, edge-deployable scheduling platform with minimal hosting overhead.
 
-### 4. EasyDispatch [![GitHub stars](https://img.shields.io/github/stars/alibaba/easydispatch?style=social&color=white)](https://github.com/alibaba/easydispatch) 🤖
+### 4. EasyDispatch [![GitHub_Stars](https://img.shields.io/github/stars/alibaba/easydispatch?style=social&color=white)](https://github.com/alibaba/easydispatch) 🤖
 - **Repository:** [alibaba/easydispatch](https://github.com/alibaba/easydispatch)
 - **Stack:** Python / PyTorch / Algorithms | **License:** Apache-2.0
 - **Overview:** Alibaba's open-source centralized real-time field service dispatching and combinatorial route optimization engine. It models dynamic vehicle and technician routing problems with time windows (VRPTW), real-time traffic conditions, worker skill matching, and on-demand customer order updates.
 - **Best for:** Logistics, on-demand field services, and enterprise dispatch systems requiring industrial-grade algorithmic route and job scheduling.
 
-### 5. Beveren FSM for ERPNext [![GitHub stars](https://img.shields.io/github/stars/Beveren-Software-Inc/Field_Service_Management?style=social&color=white)](https://github.com/Beveren-Software-Inc/Field_Service_Management/stargazers) 🏢
+### 5. Beveren FSM for ERPNext [![GitHub_Stars](https://img.shields.io/github/stars/Beveren-Software-Inc/Field_Service_Management?style=social&color=white)](https://github.com/Beveren-Software-Inc/Field_Service_Management/stargazers) 🏢
 - **Repository:** [Beveren-Software-Inc/Field_Service_Management](https://github.com/Beveren-Software-Inc/Field_Service_Management)
 - **Stack:** Python / Frappe Framework / ERPNext / MariaDB | **License:** GPL-3.0
 - **Overview:** A 100% open-source, full-featured Field Service Management application tailored natively for the Frappe/ERPNext ecosystem. Handles end-to-end technician dispatching, service appointments, work orders, on-site task completion, warranty tracking, spare parts tracking, and billing.
 - **Best for:** Companies utilizing ERPNext looking for turn-key field service dispatching, warranty tracking, and billing capabilities.
 
-### 6. Witness Work [![GitHub stars](https://img.shields.io/github/stars/leviFrosty/witness-work?style=social&color=white)](https://github.com/leviFrosty/witness-work/stargazers) 🛠️
+### 6. Witness Work [![GitHub_Stars](https://img.shields.io/github/stars/leviFrosty/witness-work?style=social&color=white)](https://github.com/leviFrosty/witness-work/stargazers) 🛠️
 - **Repository:** [leviFrosty/witness-work](https://github.com/leviFrosty/witness-work)
 - **Stack:** TypeScript / React Native / Mobile (iOS & Android) | **License:** Open Source
 - **Overview:** A user-experience focused mobile field service assistant built specifically for on-site technicians. Designed to streamline work order intake, job checklists, photo documentation, and client handoffs directly from smartphones with an intuitive mobile UI.
 - **Best for:** Technicians wanting a streamlined mobile-first field companion app prioritizing speed and mobile UX.
 
-### 7. Geoclarity [![GitHub stars](https://img.shields.io/github/stars/babupriyavrat/Geoclarity?style=social&color=white)](https://github.com/babupriyavrat/Geoclarity/stargazers) 🗺️
+### 7. Geoclarity [![GitHub_Stars](https://img.shields.io/github/stars/babupriyavrat/Geoclarity?style=social&color=white)](https://github.com/babupriyavrat/Geoclarity/stargazers) 🗺️
 - **Repository:** [babupriyavrat/Geoclarity](https://github.com/babupriyavrat/Geoclarity)
 - **Stack:** PHP / Laravel / MySQL | **License:** Open Source
 - **Overview:** An open-source, self-hosted field service management system providing complete operational control without dependency on third-party SaaS subscriptions. Delivers dispatch management, job status tracking, client management, and technician route coordination.
 - **Best for:** Self-hosters and service companies wanting a classic, lightweight LAMP/LEMP stack solution for field technician coordination.
 
-### 8. OpenFieldPro [![GitHub stars](https://img.shields.io/github/stars/niko4244/openfieldpro?style=social&color=white)](https://github.com/niko4244/openfieldpro/stargazers) 📲
+### 8. OpenFieldPro [![GitHub_Stars](https://img.shields.io/github/stars/niko4244/openfieldpro?style=social&color=white)](https://github.com/niko4244/openfieldpro/stargazers) 📲
 - **Repository:** [niko4244/openfieldpro](https://github.com/niko4244/openfieldpro)
 - **Stack:** Fastify / Next.js / React Native (Expo) / PostgreSQL | **License:** AGPL-3.0
 - **Overview:** Open-source, self-hostable lead-to-payment field service platform featuring a native Expo/React Native mobile app for technicians. Includes dispatch lanes, unassigned work queues, drag-and-drop reassignment, offline foundation, Stripe checkout, and zero phone-home licensing.
 - **Best for:** Trade contractors and full-stack developers wanting an all-in-one lead-to-payment system with a dedicated React Native mobile app.
 
-### 9. Mobo Field Service for Odoo [![GitHub stars](https://img.shields.io/github/stars/Shahadr4/mobo-field-service?style=social&color=white)](https://github.com/Shahadr4/mobo-field-service/stargazers) 📦
+### 9. Mobo Field Service for Odoo [![GitHub_Stars](https://img.shields.io/github/stars/Shahadr4/mobo-field-service?style=social&color=white)](https://github.com/Shahadr4/mobo-field-service/stargazers) 📦
 - **Repository:** [Shahadr4/mobo-field-service](https://github.com/Shahadr4/mobo-field-service)
 - **Stack:** Flutter / Dart / Odoo Backend | **License:** Apache-2.0
 - **Overview:** Part of the Mobo open-source mobile suite for Odoo. Native iOS and Android Flutter application connecting directly to Odoo Field Service backends, enabling work order management, on-site electronic signatures, time tracking, consumed parts logging, and offline sync.
 - **Best for:** Field crews requiring native mobile phone/tablet access to self-hosted Odoo Community or Enterprise instances.
 
-### 10. SiteTrackr [![GitHub stars](https://img.shields.io/github/stars/Mohammed-6/sitetrackr?style=social&color=white)](https://github.com/Mohammed-6/sitetrackr/stargazers) 📡
+### 10. SiteTrackr [![GitHub_Stars](https://img.shields.io/github/stars/Mohammed-6/sitetrackr?style=social&color=white)](https://github.com/Mohammed-6/sitetrackr/stargazers) 📡
 - **Repository:** [Mohammed-6/sitetrackr](https://github.com/Mohammed-6/sitetrackr)
 - **Stack:** Fastify / Prisma / React PWA / Dexie (IndexedDB) | **License:** Open Source
 - **Overview:** Specialized open-source FieldOps maintenance application engineered for technicians operating at remote sites with intermittent or zero internet connectivity. Utilizes client-side IndexedDB caching via Dexie, dynamic ticket templates, and file attachments in an installable PWA.
