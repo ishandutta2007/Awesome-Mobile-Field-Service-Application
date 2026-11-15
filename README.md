@@ -43,6 +43,11 @@
   - [8. OpenFieldPro](#8-openfieldpro-)
   - [9. Mobo Field Service for Odoo](#9-mobo-field-service-for-odoo-)
   - [10. SiteTrackr](#10-sitetrackr-)
+- [Comparison at a Glance](#-comparison-at-a-glance)
+- [Contributing](#-contributing)
+- [Support](#-support)
+- [Star History](#-star-history)
+- [License](#-license)
 
 ---
 
@@ -165,6 +170,23 @@ Contributions are welcome! If you know of an open-source Mobile Field Service Ap
 Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
 
 **Note on the open-source ecosystem:** The field service management space has **several credible open-source options** in 2026. **OpenFieldPro** is the most comprehensive, covering the full lead-to-payment workflow with a React Native mobile app and no per-seat limits, though it is still in release-candidate hardening . **FlexDesk** offers a modern NestJS/React Native stack with offline-first support and multi-tenancy . **Mobo** is the right choice for organizations already on Odoo wanting a native mobile app that syncs with their existing backend . **SiteTrackr** addresses remote-site maintenance with a PWA approach . **open-fieldservice** provides a lightweight scheduler with a community-added dispatch board . No open-source project fully replicates ServiceTitan's enterprise breadth, but OpenFieldPro and FlexDesk cover the core dispatch-to-payment workflow comprehensively.
+
+---
+
+## 💖 Support
+
+Thank you for exploring this curated list of Mobile Field Service Application platforms! If this repository has helped you or your team evaluate software, please consider showing your support:
+
+- 🌟 **Star this repository** to help others discover it
+- 🍴 **Fork and contribute** open-source tools or updates
+- 📢 **Share with colleagues** across the field operations & tech community
+- ☕ **Support future maintenance:** You can sponsor or buy a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Mobile-Field-Service-Application&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Mobile-Field-Service-Application&type=date&legend=top-left)
 
 ---
 
