@@ -1,5 +1,9 @@
 # Awesome Mobile Field Service Application (FSM) 📱⚡
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Mobile Field Service Application Platforms Banner" width="100%" />
+</p>
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Field Service Management](https://img.shields.io/badge/FSM-Mobile%20Apps-blue.svg)](https://github.com/ishandutta2007/Awesome-Mobile-Field-Service-Application)
@@ -8,8 +12,7 @@
 > A curated directory of premier **Mobile Field Service Application (FSM)** software, work order management tools, and technician dispatch systems. Discover top SaaS platforms and self-hosted open-source solutions featuring offline-first mobile apps for HVAC, plumbing, electrical, maintenance, and deskless field operations.
 
 ### 🔍 Quick Index & Search Keywords
-ield-service-management • mobile-fsm • 	echnician-dispatch • work-order-software • offline-first-mobile • deskless-workforce • job-scheduling • hvac-software • plumbing-dispatch • 
-oute-optimization
+`field-service-management` • `mobile-fsm` • `technician-dispatch` • `work-order-software` • `offline-first-mobile` • `deskless-workforce` • `job-scheduling` • `hvac-software` • `plumbing-dispatch` • `route-optimization`
 
 ---
 
